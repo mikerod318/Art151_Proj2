@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(16,37,81);
+
+    margin-top: 5%; 
+    margin-right: 5%; 
+    margin-left: 5%; 
+    text-align: center; 
+}
+
+
+/*
+  BELOW IS THE CLASS SETUP FOR THE TITLE OF EACH 
+  PAGE. 
+*/
+h2{
+    font-family: 'Apple Chancery', 'cursive';
+    font-size: 4em; 
+    color: white; 
+    border-style: inset; 
+    background-color: black;
+}
+
+/*
+  BELOW IS THE CLASS DETAILS FOR THE 
+  HYPERLINK TEXT OR IMAGE TO THE FOLLOWING PAGE.
+*/
+h4{ font-family: 'PT Sans', sans-serif; 
+    text-align: left; 
+    color: black; 
+    color: black; 
+    border-style: double;  
+    text-align: LEFT; 
+
+
+    background-color: antiquewhite;
+    border-style: solid; 
+
+    margin-bottom: -1%;  
+}
+.hcolor a h4:hover{ color: blue; }
+
+.alignLeft{ float: left; }
+
+.alignRight{ float: right; }
+
+.alignCenter{ float: center; }
+
+/*
+  BELOW IS THE CLASS DETAILS FOR THE EXPLANATION OF EACH PARAGRAPH
+*/
+p{
+    font-family: 'PT Sans', sans-serif; 
+    text-align: left; 
+    color: black; 
+    color: black; 
+    border-style: double;  
+    text-align: LEFT; 
+
+
+    background-color: antiquewhite;
+    border-style: solid; 
+
+    margin-bottom: -1%; 
+}
+
+div.LeftDecision {
+    float: left; 
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 700px;
+}
+img {
+    height: 400px; 
+    width: 400px; 
+    max-width: 50%;
+    background-color: grey;
+    margin-top: -5%; 
+}
+.caption {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 2em; 
+    font-family: 'Serif', Georgia; 
+}
+
+div.RightDecision {
+    float: right; 
+    vertical-align: top;
+    display: inline-block;
+    text-align: right;
+    width: 700px;
+}
